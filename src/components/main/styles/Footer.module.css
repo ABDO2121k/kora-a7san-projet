@@ -1,0 +1,68 @@
+.footer {
+  position: relative;
+  padding: 90px 10px;
+  background: #030f27;
+  color: #ffffff;
+  align-items: center;
+  background-image: url('../../../assets/footer-bg.png');
+}
+
+.footerH {
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ff1744;
+}
+
+.footerH::after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background: #ff1744;
+}
+
+.footerL {
+  position: relative;
+  width: 100%;
+}
+
+.footerLink {
+  display: block;
+  margin-bottom: 10px;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.footerLink:hover {
+  color: #ff1744;
+  letter-spacing: 1px;
+}
+
+.copy {
+  padding: 30px 15px;
+  text-align: center;
+}
+
+.copy p {
+  margin: 0;
+  color: #ffffff;
+}
+
+.copy .col-md-6:last-child p {
+  text-align: right;
+}
+
+.copy p a {
+  color: #ff1744;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.copy p a:hover {
+  color: #ffffff;
+}
