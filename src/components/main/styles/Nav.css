@@ -1,0 +1,28 @@
+
+
+.el.active::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background: #ff1744;
+    transition: 0.3s;
+  }
+
+  
+.el::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    @apply bg-red-300;
+    transition: 0.3s;
+  }
+
+  .el:hover::after{
+    width: 100%;
+  }

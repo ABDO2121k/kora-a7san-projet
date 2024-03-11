@@ -1,11 +1,10 @@
-import Footer from "./components/main/Footer";
+import Main from "./pages/Main";
+
 
 const App = () => {
   return (
     <div>
-      <div>
-        <Footer />
-      </div>
+         <Main/>
     </div>
   );
 };
