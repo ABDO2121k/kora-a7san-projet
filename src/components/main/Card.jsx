@@ -19,11 +19,11 @@ export default function Card() {
           amenities. <br />
           <strong>ScheduleYour Match:</strong> Pick a convenient time slot that
           fits your teams schedule. <br />
-          <strong>Specify Player Count: </strong>Inform us of the number of
+          {/* <strong>Specify Player Count: </strong>Inform us of the number of
           players participating to ensure proper planning and resource
           allocation. <br />
           <strong>Reserve and Play!:</strong>Confirm your booking and get ready
-          to hit the field! <br />
+          to hit the field! <br /> */}
         </p>
       </div>
 

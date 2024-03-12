@@ -1,39 +1,38 @@
-.container{
-    box-shadow: rgba(252, 252, 252, 0.4) 0px 2px 4px, rgba(151, 150, 150, 0.3) 0px 7px 13px -3px, rgba(255, 255, 255, 0.2) 0px -3px 0px inset;
-    max-width: 1000px;
-    max-height: 800px;
-    padding: 20px;
-    margin: auto;
+.container {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  max-width: 1000px;
+  max-height: 800px;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
 }
-.title{
-    text-align: center;
-    margin: auto;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    font-size: 18px;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
+.title {
+  text-align: center;
+  margin: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
 }
-.Letter{
-    color: #ff1744;
-}
-
-.ftb{
-    
-    color: #ff1744;
-    font-size: 19px;
+.Letter {
+  color: #ff1744;
 }
 
-.secondTitle{
-    text-align: center;
-    font-size: 22px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.ftb {
+  color: #ff1744;
+  font-size: 19px;
+}
 
+.secondTitle {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.paragraphe{
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
+.paragraphe {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.SiteName{
-    color: #ff1744;
-    font-weight: 500;
-    font-size: 18px;
+.SiteName {
+  color: #ff1744;
+  font-weight: 500;
+  font-size: 18px;
 }

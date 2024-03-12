@@ -11,7 +11,7 @@ export default function WelecomParg() {
         <span className={WelecomStyle.Letter}>tb</span>all{" "}
       </h2>
       <p className={WelecomStyle.paragraphe}>
-        Football isn t just a sport, it s a way of life. At <span className={WelecomStyle.SiteName}>FtbHub</span>,
+        Football isn t just a sport, it s a way of life. At <strong>FtbHub</strong> ,
         we understand that burning desire to play, strategize, and dominate.
         That s why we provide a platform to ignite your football passion. Here,
         you can create your own football identity, connect with a vibrant
