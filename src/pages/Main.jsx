@@ -1,6 +1,7 @@
 import Footer from "../components/main/Footer";
 import Nav from "../components/main/Nav";
-
+import Card from "../components/main/Card";
+import WelecomParg from "../components/main/WelecomParg";
 const Main = () => {
   return (
     <div>
@@ -41,6 +42,12 @@ const Main = () => {
         placeat sed id dolorem sit quibusdam, ad accusantium? Dolorem
         accusantium minima laborum nemo sit error impedit, iure, labore voluptas
         aliquid sequi.
+      </div>
+      <div className="mt-20">
+          <WelecomParg/>
+      </div>
+      <div className="mt-20">
+          <Card/>
       </div>
       <div className="mt-10">
         <Footer />
