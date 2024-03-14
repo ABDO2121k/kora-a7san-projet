@@ -14,7 +14,7 @@ const Home = () => {
       ></video>
       <div className={homStyles.content}>
         <h1>
-          <span className="relative z-10 text-5xl md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-[#ff1744] to-[#ffff]  text-center font-sans font-bold">
+          <span className="relative z-10 text-lg md:text-7xl  bg-clip-text text-transparent bg-gradient-to-t from-[#ff1744] to-neutral-400  text-center font-sans font-bold">
             <Typewriter
               words={[
                 "Reserve a Stadium",
@@ -24,13 +24,11 @@ const Home = () => {
               ]}
               loop={10}
               cursor
-              //   cursorStyle="⚽"
               typeSpeed={70}
               deleteSpeed={50}
               delaySpeed={1000}
             />
           </span>
-          <span className="text-3xl md:text-4xl">⚽</span>
         </h1>
       </div>
     </div>

@@ -1,12 +1,9 @@
 import { useState } from "react";
-import {
-  Bars3BottomRightIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/solid";
+import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
 import SportsSoccerIcon from "@mui/icons-material/SportsSoccer";
-import { NavLink, } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./styles/Nav.css";
-import ModalC from "./Modal";
+// import ModalC from "./Modal";
 
 const Nav = () => {
   let Links = [
@@ -15,7 +12,6 @@ const Nav = () => {
     { name: "ABOUT", link: "/three" },
   ];
   let [open, setOpen] = useState(false);
-
 
   return (
     <div className="shadow-md w-full fixed top-0 left-0 z-50">
@@ -48,7 +44,9 @@ const Nav = () => {
               </NavLink>
             </li>
           ))}
-          <ModalC/>
+          <button className=" bg-[#ff1744] text-white md:ml-8 font-semibold px-3 py-1 rounded duration-500 md:static">
+            Get Started
+          </button>
         </ul>
         {/* button */}
       </div>

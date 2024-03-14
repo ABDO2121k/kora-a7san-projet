@@ -3,6 +3,7 @@ import Nav from "../components/main/Nav";
 import Card from "../components/main/Card";
 import WelecomParg from "../components/main/WelecomParg";
 import Home from "../components/main/Home";
+import Section from "../components/main/Section";
 const Main = () => {
   return (
     <div>
@@ -10,13 +11,16 @@ const Main = () => {
         <Nav />
       </div>
       <div className="mt-2">
-          <Home/>
+        <Home />
       </div>
       <div>
-          <WelecomParg/>
+        <WelecomParg />
       </div>
-      <div className="mt-10">
-          <Card/>
+      <div className="mt-20">
+        <Section />
+      </div>
+      <div className="mt-20">
+        <Card />
       </div>
       <div className="mt-10">
         <Footer />
