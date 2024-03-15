@@ -45,7 +45,7 @@ function ColorSchemeToggle(props) {
   );
 }
 
-export default function Login() {
+export default function SignUp() {
   return (
     <CssVarsProvider defaultMode="dark" disableTransitionOnChange>
       <CssBaseline />
@@ -126,12 +126,12 @@ export default function Login() {
             <Stack gap={4} sx={{ mb: 2 }}>
               <Stack gap={1}>
                 <Typography component="h1" level="h3">
-                  Sign in
+                  Sign Up
                 </Typography>
                 <Typography level="body-sm">
-                  Don't have an account ?{" "}
+                  have you an account ?{" "}
                   <Link2 href="#replace-with-a-link" level="title-sm">
-                    <Link to={"/signup"}>Sign up!</Link>
+                    <Link to={"/login"}>Sign in!</Link>
                   </Link2>
                 </Typography>
               </Stack>
@@ -166,6 +166,17 @@ export default function Login() {
                   alert(JSON.stringify(data, null, 2));
                 }}
               >
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <FormControl required className="w-full sm:w-1/2">
+                    <FormLabel>First Name</FormLabel>
+                    <Input type="text" name="firstName" />
+                  </FormControl>
+                  <FormControl required className="w-full sm:w-1/2">
+                    <FormLabel>Last Name</FormLabel>
+                    <Input type="text" name="lastName" />
+                  </FormControl>
+                </div>
+
                 <FormControl required>
                   <FormLabel>Email</FormLabel>
                   <Input type="email" name="email" />
@@ -175,20 +186,8 @@ export default function Login() {
                   <Input type="password" name="password" />
                 </FormControl>
                 <Stack gap={4} sx={{ mt: 2 }}>
-                  <Box
-                    sx={{
-                      display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
-                    }}
-                  >
-                    <Checkbox size="sm" label="Remember me" name="persistent" />
-                    <Link2 level="title-sm">
-                      <Link to={"/forget"}>Forgot your password?</Link>
-                    </Link2>
-                  </Box>
                   <Button type="submit" fullWidth>
-                    Sign in
+                    Sign up
                   </Button>
                 </Stack>
               </form>
